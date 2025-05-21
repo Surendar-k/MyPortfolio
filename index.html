@@ -655,40 +655,46 @@
           </div>
         </div>
 
-        <div class="row no-gutters block-9">
-          <div class="col-md-6 order-md-last d-flex">
-          <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="bg-light p-4 p-md-5 contact-form">
-  <!-- Web3Forms Access Key -->
-  <input type="hidden" name="access_key" value="8cf5f43e-3acf-450d-a470-1627530f3430" />
+      <div class="row no-gutters block-9">
+  <!-- Contact Form -->
+  <div class="col-md-6 order-md-last d-flex align-items-center">
+    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="bg-light p-4 p-md-5 contact-form w-100">
+      <input type="hidden" name="access_key" value="8cf5f43e-3acf-450d-a470-1627530f3430" />
 
-  <div class="form-group">
-    <input type="text" class="form-control" name="name" placeholder="Your Name" required />
-  </div>
-  <div class="form-group">
-    <input type="email" class="form-control" name="email" placeholder="Your Email" required />
-  </div>
-  <div class="form-group">
-    <input type="text" class="form-control" name="subject" placeholder="Subject" />
-  </div>
-  <div class="form-group">
-    <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
-  </div>
-  <div class="form-group">
-    <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5" />
+      <div class="form-group">
+        <input type="text" class="form-control" name="name" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Your Email" required />
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="subject" placeholder="Subject" />
+      </div>
+      <div class="form-group">
+        <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5" />
+      </div>
+
+      <div id="alertBox" style="margin-top: 15px; display: none; font-weight: bold;"></div>
+    </form>
   </div>
 
-  <!-- Alert Message Box -->
-  <div id="alertBox" style="margin-top: 15px; display: none; font-weight: bold;"></div>
-  
-</form>
+  <!-- Centered Image -->
+  <div class="col-md-6 d-flex justify-content-center align-items-center">
+    <div class="img" style="
+      background-image: url('images/surendarimg.png');
+      width: 250px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    "></div>
+  </div>
+</div>
 
-          
-          </div>
-
-          <div class="col-md-6 d-flex">
-          	<div class="img" style="background-image: url(images/surendarimg.png);"></div>
-          </div>
-        </div>
       </div>
     </section>
 		
